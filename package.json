@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npx tsc && npm run copy-views",
     "copy-views": "copyfiles src/views/* dist",
-    "start": "npm run build && node dist/index.js"
+    "start": "npm run build && node src/index.ts"
   },
   "keywords": [],
   "author": "",
