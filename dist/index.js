@@ -38,6 +38,7 @@ app.use(body_parser_1.default.json());
 app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname + '/src/views/page.html'));
 });
+//I am testing connection
 app.use('/', webhookRoutes_1.default);
 app.listen(port, () => {
     console.log(`WhatsApp bot listening at http://localhost:${port}`);
